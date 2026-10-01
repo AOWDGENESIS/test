@@ -1,0 +1,17 @@
+workflow: artifacts/mockup-sandbox: Component Preview Server
+status: RUNNING
+run_id: Fa0U5XoAS2shN9GCO4Buh
+timestamp: 2026-10-01T17:50:39.061Z
+
+
+> @workspace/mockup-sandbox@2.0.0 dev /home/runner/workspace/artifacts/mockup-sandbox
+> vite dev
+
+[replit-cartographer] Loaded @theme tokens from /home/runner/workspace/artifacts/mockup-sandbox/src/index.css
+5:48:58 PM [vite] (client) Re-optimizing dependencies because lockfile has changed
+
+  VITE v7.3.6  ready in 1690 ms
+
+  ➜  Local:   http://localhost:8081/__mockup
+  ➜  Network: http://172.24.0.2:8081/__mockup
+  ➜  press h + enter to show help

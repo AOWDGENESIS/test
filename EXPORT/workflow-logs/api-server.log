@@ -1,0 +1,42 @@
+workflow: artifacts/api-server: API Server
+status: RUNNING
+run_id: hpaAeXLMf0gGtAzWxOeiL
+timestamp: 2026-10-01T17:50:39.061Z
+
+
+> @workspace/api-server@0.0.0 dev /home/runner/workspace/artifacts/api-server
+> export NODE_ENV=development && pnpm run build && pnpm run start
+
+
+> @workspace/api-server@0.0.0 build /home/runner/workspace/artifacts/api-server
+> node ./build.mjs
+
+
+  dist/index.mjs                       2.1mb ⚠️
+  dist/pino-worker.mjs               153.5kb
+  dist/pino-file.mjs                 142.1kb
+  dist/pino-pretty.mjs               115.3kb
+  dist/thread-stream-worker.mjs        7.4kb
+  dist/index.mjs.map                   3.2mb
+  dist/pino-worker.mjs.map           256.9kb
+  dist/pino-file.mjs.map             229.0kb
+  dist/pino-pretty.mjs.map           209.5kb
+  dist/thread-stream-worker.mjs.map   12.0kb
+
+⚡ Done in 534ms
+
+> @workspace/api-server@0.0.0 start /home/runner/workspace/artifacts/api-server
+> node --enable-source-maps ./dist/index.mjs
+
+[17:48:58.062] INFO (233): Server listening
+    port: 8080
+[17:48:58.727] INFO (233): request completed
+    req: {
+      "id": 1,
+      "method": "GET",
+      "url": "/"
+    }
+    res: {
+      "statusCode": 404
+    }
+    responseTime: 3

@@ -1,0 +1,10 @@
+{
+  "projects": [
+    {
+      "id": "gateway",
+      "name": "Replit MCP Gateway",
+      "root": ".",
+      "enabled": true
+    }
+  ]
+}
